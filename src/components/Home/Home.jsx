@@ -28,7 +28,7 @@ function Home() {
         }, 2000)
     })
     return (
-        <div className='home'>
+        <div className='home' style={{height:'90vh'}}>
             {flag && <div className='anim-div'>
                 <img src={hand} className={`i i1 ${ii1}`} />
                 <img src={hand} className={`i i2 ${ii2}`} />
@@ -45,7 +45,7 @@ function Home() {
                 <button className='btn b b2'><p className='btnp rounded'><b>Shop Opening & Branding</b></p></button>
                 <button className='btn b b3'><p className="btnp rounded"><b>Cantervan indoor / outdoor</b></p></button>
                 <button className='btn b b4'><p className="btnp rounded"><b>Manpower</b></p></button>
-                <button className='btn b b5'><p className="btnp rounded"><b>Brand Installation</b></p></button>
+                <button className='btn b b5'><p className="btnp rounded"><b>Installation & Activation</b></p></button>
             </div>}
         </div>
     )

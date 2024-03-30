@@ -153,32 +153,32 @@ b {
 }
 
 .b1 {
-    top: 23%;
-    right: 22%;
+    top: 19%;
+    right: 28%;
     transform: rotate(36deg);
 }
 
 .b2 {
-    top: 24%;
-    left: 19%;
+    top: 26%;
+    left: 18%;
     transform: rotate(-36deg);
 }
 
 .b3 {
-    bottom: 34%;
-    left: 11%;
-    transform: rotate(72deg);
+    bottom: 29%;
+    left: 13%;
+    transform: rotate(252deg);
 }
 
 .b4 {
     bottom: 10%;
-    right: 42%;
+    right: 37%;
 }
 
 .b5 {
-    bottom: 34%;
-    right: 12%;
-    transform: rotate(-72deg);
+    bottom: 37%;
+    right: 11%;
+    transform: rotate(108deg);
 }
 
 /* @media (prefers-reduced-motion: no-preference) {

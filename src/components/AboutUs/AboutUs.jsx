@@ -353,7 +353,7 @@ const Home = (props) => {
                     </div>
                     <div className="community-page">
                         <a href="https://wa.me/918939169177" target="_blank" rel="noopener noreferrer" className="whatsapp-icon">
-                            <FaWhatsapp size={50} color="green" />
+                            <FaWhatsapp size={50} color="grgb(0, 255, 0)" />
                         </a>
                     </div>
                 </div>
