@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/global-traders/static/css/main.0d106db6.css",
+    "main.js": "/global-traders/static/js/main.8408e606.js",
+    "static/js/453.0a9f4b6c.chunk.js": "/global-traders/static/js/453.0a9f4b6c.chunk.js",
+    "static/media/Untitled video - Made with Clipchamp.mp4": "/global-traders/static/media/Untitled video - Made with Clipchamp.e4a930cabea62f034d98.mp4",
+    "static/media/bgimg.jpeg": "/global-traders/static/media/bgimg.3c818479b5aa8719d2f0.jpeg",
+    "static/media/ghj.jpg": "/global-traders/static/media/ghj.445892b1e88e7d5c9188.jpg",
+    "static/media/asd.jpg": "/global-traders/static/media/asd.35cd77b2a45f984ce2e3.jpg",
+    "static/media/hand.png": "/global-traders/static/media/hand.14e6fd4908e5f7ce71b5.png",
+    "static/media/dfg.jpg": "/global-traders/static/media/dfg.e3f9c835541eb23beab7.jpg",
+    "static/media/logo.png": "/global-traders/static/media/logo.c36822d9d42c49f02098.png",
+    "static/media/contact.jpg": "/global-traders/static/media/contact.d0436d1131a41c4106be.jpg",
+    "static/media/fgh.jpg": "/global-traders/static/media/fgh.36903f99e07bba39b0c5.jpg",
+    "static/media/location.png": "/global-traders/static/media/location.448ec9755a21acc94a4a.png",
+    "static/media/slick.svg": "/global-traders/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/global-traders/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/global-traders/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/global-traders/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/global-traders/index.html",
+    "main.0d106db6.css.map": "/global-traders/static/css/main.0d106db6.css.map",
+    "main.8408e606.js.map": "/global-traders/static/js/main.8408e606.js.map",
+    "453.0a9f4b6c.chunk.js.map": "/global-traders/static/js/453.0a9f4b6c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d106db6.css",
+    "static/js/main.8408e606.js"
+  ]
+}
