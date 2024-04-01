@@ -48,102 +48,87 @@ function Services() {
       <button className='primary-button mx-auto d-block'>Get This Service</button>
       <br></br>
       <br></br>
-      <h2>Service 3</h2>
+      <h2>Service 1</h2>
       <br></br>
       <br></br>
       <div className="about-us-container">
-      <div className="our-services justify-content-center row row-cols-1 row-cols-md-2">
-          <div className={`col service-card ${showDetails[0] ? 'show-details' : ''}`}>
-            <div className="service-icon">
-              <img src={t1} alt="Service 1 Icon" style={{ height: '150px' }} className='d-block mx-auto' />
-            </div>
-            <div className="service-info">
-              <h3>EVENT 1</h3>
-              {showDetails[0] && (
-                <p className='justify'>
-                  Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor dapibus ultricies. Duis ut ligula non nibh varius auctor.
-                </p>
-              )}
-            </div>
-          </div>
-          <div className={`col service-card ${showDetails[1] ? 'show-details' : ''}`}>
-            <div className="service-icon">
-              <img src={t2} alt="Service 2 Icon" style={{ height: '150px' }} className='d-block mx-auto' />
-            </div>
-            <div className="service-info">
-              <h3>EVENT 2</h3>
-              {showDetails[1] && (
-                <p className='justify'>
-                  Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor dapibus ultricies. Duis
-                  ut ligula non nibh varius auctor.
-                </p>
-              )}
+        <div className='row row-cols-2 row-cols-sm-1 row-cols-md-2 row-cols-lg-2'>
+          <div className="col mb-4 bg-image hover-overlay hover-zoom shadow-1-strong rounded">
+            <img src={t1} alt="Service 1 Icon" className="img-fluid rounded-lg mx-auto d-block" style={{ height: '250px', width: '450px' }} />
+            <a href="#!">
+              <div className="mask" style={{ backgroundColor: 'rgba(255, 255, 255, 0.2)' }}></div>
+            </a>
+            <div className="service-info text-center">
+              <h3>Promotion Events</h3>
+              <p className='justify'>
+                Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor dapibus ultricies. Duis ut ligula non nibh varius auctor.
+              </p>
             </div>
           </div>
-          <div className={`col service-card ${showDetails[2] ? 'show-details' : ''}`} >
-            <div className="service-icon">
-              <img src={t3} alt="Service 3 Icon" style={{ height: '150px' }} className='d-block mx-auto' />
-            </div>
-            <div className="service-info">
-              <h3>EVENT 3</h3>
-              {showDetails[2] && (
-                <p className='justify'>
-                  Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor dapibus ultricies. Duis ut ligula non nibh varius auctor.
-                </p>
-              )}
-            </div>
-          </div>
-          <div className={`col service-card ${showDetails[3] ? 'show-details' : ''}`} >
-            <div className="service-icon">
-              <img src={t4} alt="Service 4 Icon" style={{ height: '150px' }} className='d-block mx-auto' />
-            </div>
-            <div className="service-info">
-              <h3>EVENT 4</h3>
-              {showDetails[3] && (
-                <p className='justify'>
-                  Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor dapibus ultricies. Duis ut ligula non nibh varius auctor.
-                </p>
-              )}
+          <div className="col mb-4 bg-image hover-overlay hover-zoom shadow-1-strong rounded">
+            <img src={t2} alt="Service 2 Icon" className="img-fluid rounded-lg mx-auto d-block" style={{ height: '250px', width: '450px' }} />
+            <a href="#!">
+              <div className="mask" style={{ backgroundColor: 'rgba(255, 255, 255, 0.2)' }}></div>
+            </a>
+            <div className="service-info text-center">
+              <h3>Shop Opening & Branding</h3>
+              <p className='justify'>
+                Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor dapibus ultricies. Duis ut ligula non nibh varius auctor.
+              </p>
             </div>
           </div>
-          <div className={`col service-card ${showDetails[4] ? 'show-details' : ''}`} >
-            <div className="service-icon">
+          <div className="col mb-4 bg-image hover-overlay hover-zoom shadow-1-strong rounded">
+            <img src={t3} alt="Service 3 Icon" className="img-fluid rounded-lg mx-auto d-block" style={{ height: '250px', width: '450px' }} />
+            <a href="#!">
+              <div className="mask" style={{ backgroundColor: 'rgba(255, 255, 255, 0.2)' }}></div>
+            </a>
+            <div className="service-info text-center">
+              <h3>Cantervan indoor / outdoor</h3>
+              <p className='justify'>
+                Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor dapibus ultricies. Duis ut ligula non nibh varius auctor.
+              </p>
             </div>
           </div>
-          <div>
-            <h2 className="section-heading">Our Past Activities</h2>
-            <div className="row row-cols-1 row-cols-md-2 text-image-section">
-                <div className="col text-content">
-                    <p className="section-text justify">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error totam, nihil incidunt qui pariatur velit sunt, accusantium quis nesciunt odit ullam ratione odio? Veniam, eligendi earum repellendus perferendis consectetur accusantium numquam quo at veritatis porro adipisci. Delectus laudantium, nihil exercitationem, officiis eaque ratione voluptates inventore iste mollitia a, blanditiis repellendus.
-                    </p>
-                </div>
-                <div className="col image-content">
-                    <img src={t6} alt="Description of Image" className="section-image" style={{ height: '300px' }} />
-                </div>
+          <div className="col mb-4 bg-image hover-overlay hover-zoom shadow-1-strong rounded">
+            <img src={t4} alt="Service 4 Icon" className="img-fluid rounded-lg mx-auto d-block" style={{ height: '250px', width: '450px' }} />
+            <a href="#!">
+              <div className="mask" style={{ backgroundColor: 'rgba(255, 255, 255, 0.2)' }}></div>
+            </a>
+            <div className="service-info text-center">
+              <h3>Manpower</h3>
+              <p className='justify'>
+                Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor dapibus ultricies. Duis ut ligula non nibh varius auctor.
+              </p>
             </div>
-            <div className="row row-cols-1 row-cols-md-2 text-image-section">
-                <div className="col text-content">
-                    <p className="section-text justify">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error totam, nihil incidunt qui pariatur velit sunt, accusantium quis nesciunt odit ullam ratione odio? Veniam, eligendi earum repellendus perferendis consectetur accusantium numquam quo at veritatis porro adipisci. Delectus laudantium, nihil exercitationem, officiis eaque ratione voluptates inventore iste mollitia a, blanditiis repellendus.
-                    </p>
-                </div>
-                <div className="col image-content">
-                    <img src={t6} alt="Description of Image" className="section-image" style={{ height: '300px' }} />
-                </div>
+          </div>
+          <div className="col mb-4 bg-image hover-overlay hover-zoom shadow-1-strong rounded">
+            <img src={t5} alt="Service 5 Icon" className="img-fluid rounded-lg mx-auto d-block" style={{ height: '250px', width: '450px' }} />
+            <a href="#!">
+              <div className="mask" style={{ backgroundColor: 'rgba(255, 255, 255, 0.2)' }}></div>
+            </a>
+            <div className="service-info text-center">
+              <h3>Installation & Activation</h3>
+              <p className='justify'>
+                Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor dapibus ultricies. Duis ut ligula non nibh varius auctor.
+              </p>
             </div>
-            <div className="row row-cols-1 row-cols-md-2 text-image-section">
-                <div className="col text-content">
-                    <p className="section-text justify">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error totam, nihil incidunt qui pariatur velit sunt, accusantium quis nesciunt odit ullam ratione odio? Veniam, eligendi earum repellendus perferendis consectetur accusantium numquam quo at veritatis porro adipisci. Delectus laudantium, nihil exercitationem, officiis eaque ratione voluptates inventore iste mollitia a, blanditiis repellendus.
-                    </p>
-                </div>
-                <div className="col image-content">
-                    <img src={t5} alt="Description of Image" className="section-image" style={{ height: '300px' }} />
-                </div>
-            </div>
+          </div>
         </div>
+        <h1 class="display-1 text-primary col text-center">Our Past Activities</h1>
+        <Slider {...settings}>
+        <div>
+          <img src={img1} alt="Service 1" style={{ height: '60vmin' }} />
         </div>
+        <div>
+          <img src={img2} alt="Service 2" style={{ height: '60vmin' }} />
+        </div>
+        <div>
+          <img src={img3} alt="Service 3" style={{ height: '60vmin' }} />
+        </div>
+        <div>
+          <img src={img4} alt="Service 4" style={{ height: '60vmin' }} />
+        </div>
+      </Slider>
       </div>
     </div>
   );

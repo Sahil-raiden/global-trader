@@ -1,0 +1,9 @@
+.hover-overlay-content {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .col:hover .hover-overlay-content {
+    opacity: 1;
+  }
+  
