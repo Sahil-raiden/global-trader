@@ -130,10 +130,23 @@ ol {
 /* Hero Section Styles */
 
 .home-hero {
-    background-image: url('https://c0.wallpaperflare.com/preview/811/935/645/adults-analysis-brainstorming-collaboration.jpg');
+    background-image: url('../../assets/about-us.jpg');
     background-size: cover;
     background-position: center;
-    padding: 100px 0;
+    height:50vmin;
+    /* padding: 100px 0; */
+}
+
+.heroContainer{
+    height:100%;
+    padding:15vmin;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+@media all and (max-width:500px) {
+    .heroContainer{
+        padding:5vmin;
+    }
 }
 
 .home-hero-heading {
@@ -391,3 +404,38 @@ h1 {
     background-color: darkgreen;
     /* Change color on hover */
 }
+
+.au-icon{
+    height:30%;
+}
+
+.au-info{
+    height:70%;
+}
+/* Add this CSS to your stylesheet or component */
+
+.service-infoab {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px; /* Increase padding to make the card bigger */
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+  }
+
+.service-infoab h3 {
+    font-size: 20px; /* Increase heading font size */
+    font-weight:900
+  }
+  
+  .service-infoab p {
+    font-size: 18px; /* Increase paragraph font size */
+    line-height: 1.5;
+    border-radius: 2rem;
+    display: flex;
+  }
+  
+
+

@@ -16,7 +16,7 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+}x
 
 .App-header {
   background-color: #282c34;
@@ -232,6 +232,7 @@ h2{
 
 .services {
   width: 100%;
+  background-color: white;
 }
 
 .service-card {
@@ -261,16 +262,7 @@ h2{
   border-radius: 2rem;
 }
 
-.service-info {
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px; /* Increase padding to make the card bigger */
-  border: 1px solid transparent;
-  border-radius: 2px;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 2rem;
-}
+About
 
 .service-info h3 {
   font-size: 20px; /* Increase heading font size */

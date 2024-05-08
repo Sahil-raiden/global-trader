@@ -1,4 +1,4 @@
-/* styles.css */
+/* styles.css
 
 body {
     font-family: Arial, sans-serif;
@@ -13,6 +13,10 @@ body {
   form {
     max-width: 400px;
     margin-left: 200px;
+  }
+  
+  div {
+    margin-bottom: 10px;
   }
   
   label {
@@ -162,4 +166,13 @@ body {
   }
   
   }
-  
+   */
+
+/* .contact-bg{
+    margin:0 0;
+    padding:0;
+    background-image: url('../../assets/contact-background.jpg');
+    width:100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */

@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../../assets/logonew.png";
+import logo from "../../assets/new-logo.jpg";
 import { FaWhatsapp } from 'react-icons/fa';
 import { SiLinkedin, SiYoutube, SiFacebook } from "react-icons/si";
 import "./Footer.css"; // Import CSS file for styling
@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <div className='footer-wrapper'>
-        <div className='footer-section-one'>
-            <div className='footer-logo-container'>
+    <div className='footer-wrapper bg-primary row row-cols-1 row-cols-sm-2 row-cols-md-2'>
+        <div className='col'>
+            <div>
                 <Link to="/global-trader">
                     <img src={logo} alt="EnviGo Logo" height="150" width="250"/>
                 </Link>
@@ -26,18 +26,18 @@ const Footer = () => {
                 </a>
             </div>
         </div>
-        <div className='footer-section-two'>
-            <div className='footer-section-columns'>
+        <div className='col'>
+            <div>
                 <span>Contact</span>
             </div>
-            <div className='footer-section-column'>
+            <div>
                 <span>91+8939169177</span>
                 <br />
                 <span>envigocustomer@gmail.com</span>
                 <br />
                 <span>envigoofficial@gmail.com</span>  
             </div>
-            <div className='footer-section-columns'>
+            <div>
                 <span>Terms & Conditions</span>
                 <span>Privacy</span>
             </div>
